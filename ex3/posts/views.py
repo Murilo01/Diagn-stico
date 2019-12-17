@@ -17,3 +17,6 @@ def mostrar_home(request):
     posts = Post.objects.all()
 
     return render(request, 'index.html', {'posts': posts})
+
+def autor(request):
+    return render(request, 'index.html')

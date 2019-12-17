@@ -19,4 +19,4 @@ from posts.views import mostrar_home, mostrar_formulario
 urlpatterns = [
     path('', mostrar_home),
     path('formulario/', mostrar_formulario),
-]
+    ]
